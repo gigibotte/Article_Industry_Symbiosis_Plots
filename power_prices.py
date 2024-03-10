@@ -37,3 +37,4 @@ hourly_gas_prices['time']=hourly_gas_prices.index
 hourly_gas_prices = hourly_gas_prices[['time','Hourly_Prices']]
 
 hourly_gas_prices.to_csv('/Users/luigibottecchia/Dev/PhD/graphs_pyplot/dataprices/hourly_gas_prices.csv', index=False)
+
